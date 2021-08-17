@@ -4,7 +4,9 @@
     --dark-light:#191f3a;
     --white-light: #c8c8c8;
     --swhadow:0 0 15px rgba(0,0,0,0.25);
+    --white: #fff;
     scroll-behavior: smooth;
+    --cursive-font: 'Patrick Hand', cursive;
 }
 
 *{
@@ -24,6 +26,9 @@ body{
     font-size: 1rem;
     line-height: 1.5;
     -webkit-tap-highlight-color: transparent;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 300;
+    color: var(--white-light);
 }
 
 a{
@@ -40,6 +45,23 @@ ul{
     border-radius: 50%;
 }
 
+h1{
+    font-weight: 700;
+    color: var(--white);
+}
+
+h2{
+    font-weight: 600;
+    color: var(--white);
+}
+
+h3,
+h4,
+h5,
+h6{
+    font-weight: 500;
+    color: var(--white);
+}
 .container{
     max-width: 1170px;
     margin: auto;
@@ -58,6 +80,52 @@ ul{
     align-items: center;
 }
 
+.min-vh-100{
+    min-height: 100vh;
+}
+
+
+/* Buttons */
+
+.btn{
+    display: inline-block;
+    padding: 0.6rem 1.8rem;
+    background-color: transparent;
+    border-radius: 1.8rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition:all 0.3s ease ;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: inherit;
+    color: var(--main-color);
+    line-height: 1.5;
+    user-select: none;
+    border: none;
+}
+
+.btn-default{
+    border: 2px solid var(--main-color);
+}
+
+/* animation keyframes */
+
+@keyframes zoomInOut {
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+}
+
+/* animation keyframes */
+
+.btn-default:hover{
+    color: var(--white);
+    background-color: var(--main-color);
+}
+/* Buttons */
 .header{
     padding:0.75rem 0;
     background-color: var(--dark-light);
@@ -190,3 +258,61 @@ ul{
 .header .nav ul li a:hover{
     color: var(--main-color);
 }
+
+/* Home Section */
+
+.home-section{
+    position: relative;
+    overflow: hidden;
+}
+
+.home-section::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+
+.home-section .home-bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("images/Hero-Image.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center ;
+    z-index: -2;
+    animation: zoomInOut 20s ease infinite;
+}
+
+.home-section .min-vh-100{
+    padding: 6.25rem 0;
+}
+
+.home-text{
+    padding: 0 0.9rem;
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.home-text h1{
+    font-family: var(--cursive-font);
+    font-size: 6rem;
+    line-height: 75px;
+    margin: 0 0 5px;
+}
+
+.home-text p{
+    margin: 0 0 1.8rem;
+}
+/* Home Section */
