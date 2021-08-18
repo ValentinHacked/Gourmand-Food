@@ -6,7 +6,8 @@
     --swhadow:0 0 15px rgba(0,0,0,0.25);
     --white: #fff;
     scroll-behavior: smooth;
-    --cursive-font: 'Patrick Hand', cursive;
+    --cursive-font: "Lobster", cursive;
+    --secondary-font: "Heebo", sans serif;
 }
 
 *{
@@ -422,5 +423,110 @@ p{
         font-family: var(--cursive-font);
         color: var(--dark);
         font-weight: bold;
+        text-transform: capitalize;
     }
 /* About Section */
+
+
+/* Menu Section */
+
+.menu-section{
+    background-color: var(--dark-light);
+}
+
+.menu-section .section-title{
+    margin-bottom: 2.5rem;
+}
+
+.menu-tabs{
+    padding: 0 0.9rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.9rem;
+}
+
+.menu-tab-content{
+    display: none;
+
+}
+
+.menu-tab-content.active{
+    display:flex ;
+}
+
+
+.menu-tab-item{
+    font-size: 1.1rem;
+    font-family: inherit;
+    text-transform: capitalize;
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    color: var(--main-color);
+    cursor: pointer;
+    margin: 0 0.6rem 0.6rem;
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+
+
+.menu-tab-item.active{
+    color: var(--main-color);
+}
+
+.menu-item{
+    width: 50%;
+    padding: 1.2rem 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu-item::after{
+    content: '';
+    position: absolute;
+    left: 0.9rem;
+    right: 0.9rem;
+    bottom: 0;
+    border-bottom:2px dashed var(--dark-light);
+}
+
+.menu-item:nth-last-of-type(2)::after,
+.menu-item:nth-last-of-type(1)::after{
+    border:none;
+}
+
+.menu-item-title h3{
+    font-size: 1rem;
+    text-transform: capitalize;
+    transition: color 0.3s ease;
+}
+
+.menu-item:hover .menu-item-title h3{
+    color: var(--main-color);
+}
+
+.menu-item-title{
+    display: flex;
+    align-items: center;
+    max-width: calc(100% - 80px);
+}
+
+.menu-title img{
+    max-width: 100px;
+    margin-right: 0.9rem;
+}
+
+.menu-item-price{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--main-color);
+    transition: color 0.3s ease;
+}
+
+
+.menu-item:hover .menu-item-price{
+   color: var(--white);
+}
+/* Menu Section */
