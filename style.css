@@ -646,3 +646,74 @@ p{
     color: var(--white);
 }
 /* Team Section */
+
+/* Footer Section*/
+
+    .footer{
+        padding: 5rem 0 0;
+        background-image: url("images/footer-img.jpg");
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 1;
+    }
+
+
+    .footer::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.6);
+        z-index: -1;
+    }
+
+    .footer-item{
+        width: calc(100% / 3);
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    .footer-item h3{
+        text-transform: capitalize;
+        font-size: 1.3rem;
+        margin: 0 0 1rem;
+
+    }
+
+    .footer-item p{
+        line-height: 1.8rem;
+    }
+
+    .footer-item .socials{
+        margin-top: 1rem;
+    }
+
+    .footer-item .socials a{
+        display: inline-flex;
+        height: 3.5rem;
+        width: 3.5rem;
+        color: var(--white-light);
+        font-size: 1.3rem;
+        align-items: center;
+        justify-content: center;
+        transition: color 0.3s ease;
+    }
+
+    .footer-item .socials a:hover{
+        color: var(--main-color);
+    }
+
+    .footer .madeBy{
+        margin: 5rem 0 0;
+        width: 100%;
+        text-align: center;
+        padding: 1.6rem 1rem;
+        font-size: 0.9rem;
+        border-top: 1px solid var(--white-light);
+    }
+/* Footer Section*/
