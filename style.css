@@ -92,6 +92,10 @@ p{
 .sec-padding{
     padding: 5rem 0;
 }
+
+section{
+    overflow: hidden;
+}
 /* Section Title */
 
   .section-title{
