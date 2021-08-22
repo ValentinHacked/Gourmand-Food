@@ -409,6 +409,8 @@ section{
 
 .home-text p{
     margin: 0 0 1.8rem;
+    font-style: italic;
+    font-weight: bold;
 }
 /* Home Section */
 
@@ -585,10 +587,11 @@ section{
     max-width: calc(100% - 80px);
 }
 
-.menu-title img{
+.menu-item-title img{
     max-width: 100px;
     margin-right: 0.9rem;
     box-shadow: var(--shadow);
+    border-radius: 5px;
 }
 
 .menu-item-price{
