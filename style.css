@@ -49,6 +49,7 @@ ul{
 h1{
     font-weight: 700;
     color: var(--white);
+
 }
 
 h2{
@@ -114,7 +115,7 @@ section{
   .section-title h2::before{
       content: attr(data-title);
       display: block;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       color: var(--main-color);
       font-family: var(--cursive-font);
       font-weight: 400;
@@ -403,7 +404,7 @@ section{
     font-family: var(--cursive-font);
     font-size: 6rem;
     line-height: 75px;
-    margin: 0 0 5px;
+    margin: 0 0 1rem;
 }
 
 .home-text p{
