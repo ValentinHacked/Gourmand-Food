@@ -215,7 +215,7 @@ section{
 /* Buttons */
 .header{
     padding:0.75rem 0;
-    background-color: var(--dark-light);
+    background-color: var(--main-color);
     position: fixed;
     left:0 ;
     top: 0;
@@ -249,7 +249,7 @@ section{
     align-items: center;
     padding: 0 0.9rem;
     font-family: var(--cursive-font) ;
-    color: var(--dark);
+    color: var(--main-color);
     border-radius: 50%;
 }
 
@@ -673,7 +673,7 @@ section{
 
 /* Team Section */
 .team-section{
-    background-color: var(--dark);
+    background-color: var(--dark-light);
     padding-bottom: 8rem;
 }
 
@@ -695,7 +695,7 @@ section{
 }
 
 .team-item-info{
-    background-color: var(--dark-light);
+    background-color: var(--dark);
     border-radius: 1rem;
     padding: 1rem;
     text-align: center;
