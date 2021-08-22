@@ -1,8 +1,8 @@
 :root{
-    --main-color: #eaa023;
-    --dark: #0c1023;
-    --dark-light:#191f3a;
-    --white-light: #c8c8c8;
+    --main-color: #5E503F;
+    --dark: #49111C;
+    --dark-light:#a9927D;
+    --white-light: #f2f4f3;
     --shadow:0 0 15px rgba(0,0,0,0.25);
     --white: #fff;
     scroll-behavior: smooth;
@@ -29,7 +29,7 @@ body{
     -webkit-tap-highlight-color: transparent;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     font-weight: 300;
-    color: var(--white-light);
+    color: #fffbff;
 }
 
 a{
@@ -133,15 +133,18 @@ section{
     transition:all 0.3s ease ;
     font-size: 1rem;
     cursor: pointer;
-    font-family: inherit;
+    font-family: "Heebo", sans-serif;
     color: var(--main-color);
     line-height: 1.5;
     user-select: none;
     border: none;
+    box-shadow: var(--shadow);
 }
 
 .btn-default{
     border: 2px solid var(--main-color);
+    box-shadow: var(--shadow);
+
 }
 
 /* animation keyframes */
@@ -238,12 +241,20 @@ section{
 }
 
 
-.header .logo{
+.header .logo { 
     background-color: var(--main-color);
-    min-height: 2.1rem;
+    min-height: 2.5rem;
     display: flex;
     align-items: center;
     padding: 0 0.9rem;
+    font-family: var(--cursive-font) ;
+    color: var(--dark);
+    border-radius: 50%;
+}
+
+.header .logo a{
+    color: var(--dark);
+    font-size: 1.2rem;
 }
 
 .header .nav-toggler{
@@ -315,7 +326,7 @@ section{
     top: 0;
     height: 100%;
     width: 280px;
-    background-color: var(--dark-light);
+    background-color: var(--dark);
     box-shadow: var(--swhadow);
     overflow-y: auto;
     padding: 80px 0 40px;
@@ -333,7 +344,7 @@ section{
     color: var(--white-light);
     padding: 0.6rem 1.8rem;
     text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-weight: 300;
     transition: color 0.3s ease;
 }
@@ -403,7 +414,7 @@ section{
 /* About Section */
     
     .about-section{
-        background-color: var(--dark-light);
+        background-color: var(--dark);
     }
 
 
@@ -438,6 +449,7 @@ section{
 
     .about-img .img-box{
         position: relative;
+        box-shadow: var(--shadow);
     }
 
     .about-img .img-box::before{
@@ -462,7 +474,7 @@ section{
         transform: translate(-50%, -50%);
         font-size: 1.8rem;
         font-family: var(--cursive-font);
-        color: var(--dark);
+        color:#04030f;
         font-weight: bold;
         text-transform: capitalize;
     }
@@ -472,7 +484,22 @@ section{
 /* Menu Section */
 
 .menu-section{
-    background-color: var(--dark-light);
+    background: url("images/menu-section-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+}
+
+.menu-section::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.6;
+    z-index: -1;
 }
 
 .menu-section .section-title{
@@ -508,6 +535,7 @@ section{
     margin: 0 0.6rem 0.6rem;
     transition: color 0.3s ease;
     display: inline-block;
+    box-shadow: var(--shadow);
 }
 
 
@@ -522,6 +550,8 @@ section{
     align-items: center;
     justify-content: space-between;
     position: relative;
+    box-shadow: var(--shadow);
+
 }
 
 .menu-item::after{
@@ -557,13 +587,17 @@ section{
 .menu-title img{
     max-width: 100px;
     margin-right: 0.9rem;
+    box-shadow: var(--shadow);
 }
 
 .menu-item-price{
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: bold;
+    font-style: italic;
     color: var(--main-color);
     transition: color 0.3s ease;
+    text-shadow: var(--shadow);
+
 }
 
 
@@ -587,6 +621,8 @@ section{
      padding: 1.9rem;
      border-radius: 8px;
      box-shadow: var(--shadow);
+     background-color: #f8e9f2;
+     color: var(--main-color);
  }
 
  .testi-author{
@@ -599,6 +635,7 @@ section{
      font-size: 1rem;
      text-transform: capitalize;
      margin: 0 0 3px;
+     color: var(--main-color);
  }
 
  .testi-author span{
@@ -738,7 +775,7 @@ section{
         display: inline-flex;
         height: 3.5rem;
         width: 3.5rem;
-        color: var(--white-light);
+        color: var(--main-color);
         font-size: 1.3rem;
         align-items: center;
         justify-content: center;
@@ -755,7 +792,7 @@ section{
         text-align: center;
         padding: 1.6rem 1rem;
         font-size: 0.9rem;
-        border-top: 1px solid var(--white-light);
+        border-top: 1px solid var(--main-color);
     }
 /* Footer Section*/
 
