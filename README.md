@@ -65,8 +65,8 @@ This is the website for the Gourmand Food Restaurant. It is designed to be respo
     - GitHub is used to store the projects code after being pushed from Git.
 6. [Logodesign:](https://www.logodesign.net/logos/restaurant-food)
     - Logodesign was used to generate the logo for the website.
-7. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+7. [AdobeXD:](https://www.adobe.com/uk/products/xd/pricing/free-trial.html?ef_id=c8b8db5c006e16e167a9ba719281879d:G:s&s_kwcid=AL!3085!10!79714750928740!79715048502318)
+    - AdobeXD was used to create the [wireframes](https://github.com/) during the design process.
 
 ## Testing
 
@@ -136,14 +136,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
-
+-   On the desktop view the desserts section of the menu doesn't show up.
+  
 ## Deployment
 
 ### GitHub Pages
@@ -156,13 +153,13 @@ The project was deployed to GitHub Pages using the following steps...
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://valentinhacked.github.io/MS2-Project/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ValentinHacked/MS2-Project)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
