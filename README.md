@@ -69,7 +69,7 @@ This is the website for the Gourmand Food Restaurant. It is designed to be respo
 6. [Logodesign:](https://www.logodesign.net/logos/restaurant-food)
     - Logodesign was used to generate the logo for the website.
 7. [Balsamiq:](https://balsamiq.cloud/)
-    - Balsamiq Cloud was used to create the [Desktop wireframe](https://github.com/../../wireframes/MS2-DesktopWireframe.pdf) and the [Mobile wireframe](https://github.com/../../wireframes/MobileView-Wireframe.pdf) during the design process.
+    - Balsamiq Cloud was used to create the [Desktop wireframe](https://github.com/ValentinHacked/MS2-Project/blob/master/../../../../../../wireframes/MS2-DesktopWireframe.pdf) and the [Mobile wireframe](https://github.com/../../wireframes/MobileView-Wireframe.pdf during the design process.
 
 ## Testing
 
