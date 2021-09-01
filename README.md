@@ -73,7 +73,7 @@ This is the website for the Gourmand Food Restaurant. It is designed to be respo
 
       -   Desktop Wireframe - [View](https://github.com/ValentinHacked/MS1-Project/blob/master/wireframes/MS2-DesktopVireframe.pdf)
 
-      -   Mobile Wireframe - [View](https://github.com/ValentinHacked/MS1-Project/blob/master/wireframes/MobileView-Wireframe.pdf)
+      -   Mobile Wireframe - [View](https://github.com/ValentinHacked/MS2-Project/blob/master/wireframes/MobileView-Wireframe.pdf)
 
 ## Testing
 
