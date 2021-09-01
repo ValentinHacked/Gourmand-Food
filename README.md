@@ -32,15 +32,18 @@ This is the website for the Gourmand Food Restaurant. It is designed to be respo
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Desktop Wireframe - [View](https://github.com/ValentinHacked/MS2-Project/blob/master/wireframes/MS2-DesktopVireframe.pdf)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Mobile Wireframe - [View](https://github.com/../../wireframes/MobileView-Wireframe.pdf)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
 
 -   Responsive on all device sizes
+
+    <h2 align="center"><img src="images/MobileViewPrintscreen.PNG"></h2>
+
+    <h2 align="center"><img src="images/TabletViewPrintscreen.PNG"></h2>
 
 -   Interactive elements
 
@@ -65,8 +68,8 @@ This is the website for the Gourmand Food Restaurant. It is designed to be respo
     - GitHub is used to store the projects code after being pushed from Git.
 6. [Logodesign:](https://www.logodesign.net/logos/restaurant-food)
     - Logodesign was used to generate the logo for the website.
-7. [AdobeXD:](https://www.adobe.com/uk/products/xd/pricing/free-trial.html?ef_id=c8b8db5c006e16e167a9ba719281879d:G:s&s_kwcid=AL!3085!10!79714750928740!79715048502318)
-    - AdobeXD was used to create the [wireframes](https://github.com/) during the design process.
+7. [Balsamiq:](https://balsamiq.cloud/)
+    - Balsamiq Cloud was used to create the [Desktop wireframe](https://github.com/../../wireframes/MS2-DesktopWireframe.pdf) and the [Mobile wireframe](https://github.com/../../wireframes/MobileView-Wireframe.pdf) during the design process.
 
 ## Testing
 
