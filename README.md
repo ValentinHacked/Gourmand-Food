@@ -71,7 +71,7 @@ This is the website for the Gourmand Food Restaurant. It is designed to be respo
 7. [Balsamiq:](https://balsamiq.cloud/)
     - Balsamiq Cloud was used to create the wireframes during the design process.
 
-      -   Desktop Wireframe - [View](https://github.com/ValentinHacked/MS1-Project/blob/master/wireframes/MS2-DesktopWireframe.pdf)
+      -   Desktop Wireframe - [View](https://github.com/ValentinHacked/MS2-Project/blob/master/wireframes/MS2-DesktopWireframe.pdf)
 
       -   Mobile Wireframe - [View](https://github.com/ValentinHacked/MS2-Project/blob/master/wireframes/MobileView-Wireframe.pdf)
 
