@@ -14,7 +14,7 @@
 </head>
 <body>
         <div class="container">
-            <form onsubmit="sendEmail(); reset(); return false;">
+            <form onsubmit="sendEmail(); reset();">
                 <h3>Get In Touch</h3>
                 <input type="text" id="name" placeholder="Your Name" required>
                 <input type="email" id="email" placeholder="Your Email" required>
@@ -27,9 +27,9 @@
     <script>
         function sendEmail(){
             Email.send({
-    Host : "smtp.gmail.com",
-    Username : "username",
-    Password : "password",
+    Host : "smtp.elasticemail.com",
+    Username : "gourmandfood@contact.com",
+    Password : "2F8568699D8C82CAE55349993617288D7254",
     To : 'gourmandfood@contact.com',
     From : document.getElementById('email').value,
     Subject : "New enquiry",

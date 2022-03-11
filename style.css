@@ -797,7 +797,20 @@ section{
         padding: 1.6rem 1rem;
         font-size: 0.9rem;
         border-top: 1px solid var(--main-color);
+        transition: color 0.3s ease;
+
     }
+
+    .contactLink{
+        color: var(--white-light);
+        transition: color 0.3s ease;
+        
+    }
+
+    .contactLink:hover{
+        color: var(--dark);
+    }
+
 /* Footer Section*/
 
 /* Media Queries */
