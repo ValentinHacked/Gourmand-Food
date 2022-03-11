@@ -9,11 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Lobster&display=swap"
         rel="stylesheet">
         <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+        
 
 </head>
 <body>
         <div class="container">
-            <form action="">
+            <form onsubmit="sendEmail(); reset(); return false;">
                 <h3>Get In Touch</h3>
                 <input type="text" id="name" placeholder="Your Name" required>
                 <input type="email" id="email" placeholder="Your Email" required>
@@ -22,6 +23,24 @@
                 <button type="submit">Submit</button>
             </form>
         </div>
-    
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+    Host : "smtp.gmail.com",
+    Username : "username",
+    Password : "password",
+    To : 'gourmandfood@contact.com',
+    From : document.getElementById('email').value,
+    Subject : "New enquiry",
+    Body : "Name" + document.getElementById('name').value
+                +'<br> Email: ' + document.getElementById('email').value
+                +'<br> Phone no: ' + document.getElementById('phone').value
+                +'<br> Message: ' + document.getElementById('message').value
+}).then(
+  message => alert('Message Sent Succesfully')
+);
+        }
+    </script>
 </body>
 </html>
